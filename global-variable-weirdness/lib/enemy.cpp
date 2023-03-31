@@ -1,8 +1,5 @@
-#pragma once
+#include "enemy.h"
 
 namespace global_variable_weirdness {
-struct Enemy {
-    int health;
-    int x, y;
-};
+Enemy enemy{100, 0, 0};
 }  // namespace global_variable_weirdness
